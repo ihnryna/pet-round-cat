@@ -1,16 +1,16 @@
-# React + Vite
+# Pet Round Cat
+A small interactive Tamagotchi-like web game where you take care of a small pixel cat inside a cozy animated room 🐱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The idea of the project is to simulate a small interactive living space, where every object has behavior and affects the environment. The project focuses on state-driven UI, interactive components, and game-like frontend logic.
 
-Currently, two official plugins are available:
+🎨 All visual ***assets***, including pixel art sprites and UI elements, are designed and ***hand-drawn by me***
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Available at: https://pet-round-cat.irihskaa.workers.dev/
 
-## React Compiler
+<br/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- React (JavaScript)
+- CSS (custom pixel styling, no frameworks)
+- Vite
+- Cloudflare Pages (deployment)
