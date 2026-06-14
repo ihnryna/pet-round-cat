@@ -11,10 +11,21 @@ body {
     height: 90vh;
     aspect-ratio: 1 / 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #e5f5ff;
     border-radius: 30px;
+}
+
+.ui {
+    width: 95%;
+    height: 15%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 }
 
 .scene {
@@ -68,4 +79,16 @@ body {
     width: calc(3% * 1.3);
     height: calc(20% * 1.3);
     cursor: pointer;
+}
+
+.progress-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: calc(9% * 1.3 * 5 + 10px * 1.3);
+}
+
+.bar-icon {
+    width: calc(20%);
+    aspect-ratio: initial;
 }
